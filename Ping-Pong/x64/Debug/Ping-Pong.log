@@ -1,22 +1,27 @@
 ﻿  game.cpp
-G:\GitHub\Pong\Ping-Pong\game.cpp(141,46): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
-G:\GitHub\Pong\Ping-Pong\game.cpp(142,46): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
-G:\GitHub\Pong\Ping-Pong\game.cpp(144,47): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
-G:\GitHub\Pong\Ping-Pong\game.cpp(145,47): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
-G:\GitHub\Pong\Ping-Pong\game.cpp(175,37): warning C4244: '*=' : conversion de 'double' en 'int', perte possible de données
-G:\GitHub\Pong\Ping-Pong\game.cpp(181,46): warning C4305: '+=' : troncation de 'double' à 'float'
-G:\GitHub\Pong\Ping-Pong\game.cpp(187,37): warning C4244: '*=' : conversion de 'double' en 'int', perte possible de données
-G:\GitHub\Pong\Ping-Pong\game.cpp(191,46): warning C4305: '+=' : troncation de 'double' à 'float'
-G:\GitHub\Pong\Ping-Pong\game.cpp(214,40): warning C4838: la conversion de 'float' en 'int' requiert une conversion restrictive
-G:\GitHub\Pong\Ping-Pong\game.cpp(214,40): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
-G:\GitHub\Pong\Ping-Pong\game.cpp(214,61): warning C4838: la conversion de 'float' en 'int' requiert une conversion restrictive
-G:\GitHub\Pong\Ping-Pong\game.cpp(214,61): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
-G:\GitHub\Pong\Ping-Pong\game.cpp(218,40): warning C4838: la conversion de 'float' en 'int' requiert une conversion restrictive
-G:\GitHub\Pong\Ping-Pong\game.cpp(218,40): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
-G:\GitHub\Pong\Ping-Pong\game.cpp(218,61): warning C4838: la conversion de 'float' en 'int' requiert une conversion restrictive
-G:\GitHub\Pong\Ping-Pong\game.cpp(218,61): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
-G:\GitHub\Pong\Ping-Pong\game.cpp(222,28): warning C4838: la conversion de 'float' en 'int' requiert une conversion restrictive
-G:\GitHub\Pong\Ping-Pong\game.cpp(222,28): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
-G:\GitHub\Pong\Ping-Pong\game.cpp(222,40): warning C4838: la conversion de 'float' en 'int' requiert une conversion restrictive
-G:\GitHub\Pong\Ping-Pong\game.cpp(222,40): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+G:\GitHub\Pong\Ping-Pong\game.cpp(163,43): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+G:\GitHub\Pong\Ping-Pong\game.cpp(164,43): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+G:\GitHub\Pong\Ping-Pong\game.cpp(166,44): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+G:\GitHub\Pong\Ping-Pong\game.cpp(167,44): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+G:\GitHub\Pong\Ping-Pong\game.cpp(206,22): warning C4244: '*=' : conversion de 'double' en 'int', perte possible de données
+G:\GitHub\Pong\Ping-Pong\game.cpp(207,20): warning C4244: '*=' : conversion de 'double' en 'int', perte possible de données
+G:\GitHub\Pong\Ping-Pong\game.cpp(214,31): warning C4305: '+=' : troncation de 'double' à 'float'
+G:\GitHub\Pong\Ping-Pong\game.cpp(225,22): warning C4244: '*=' : conversion de 'double' en 'int', perte possible de données
+G:\GitHub\Pong\Ping-Pong\game.cpp(226,20): warning C4244: '*=' : conversion de 'double' en 'int', perte possible de données
+G:\GitHub\Pong\Ping-Pong\game.cpp(231,31): warning C4305: '+=' : troncation de 'double' à 'float'
+G:\GitHub\Pong\Ping-Pong\game.cpp(258,37): warning C4838: la conversion de 'float' en 'int' requiert une conversion restrictive
+G:\GitHub\Pong\Ping-Pong\game.cpp(258,37): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+G:\GitHub\Pong\Ping-Pong\game.cpp(258,58): warning C4838: la conversion de 'float' en 'int' requiert une conversion restrictive
+G:\GitHub\Pong\Ping-Pong\game.cpp(258,58): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+G:\GitHub\Pong\Ping-Pong\game.cpp(262,37): warning C4838: la conversion de 'float' en 'int' requiert une conversion restrictive
+G:\GitHub\Pong\Ping-Pong\game.cpp(262,37): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+G:\GitHub\Pong\Ping-Pong\game.cpp(262,58): warning C4838: la conversion de 'float' en 'int' requiert une conversion restrictive
+G:\GitHub\Pong\Ping-Pong\game.cpp(262,58): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+G:\GitHub\Pong\Ping-Pong\game.cpp(266,25): warning C4838: la conversion de 'float' en 'int' requiert une conversion restrictive
+G:\GitHub\Pong\Ping-Pong\game.cpp(266,25): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+G:\GitHub\Pong\Ping-Pong\game.cpp(266,37): warning C4838: la conversion de 'float' en 'int' requiert une conversion restrictive
+G:\GitHub\Pong\Ping-Pong\game.cpp(266,37): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+  main.cpp
+G:\GitHub\Pong\Ping-Pong\main.cpp(11,12): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+  Génération de code en cours...
   Ping-Pong.vcxproj -> G:\GitHub\Pong\x64\Debug\Ping-Pong.exe

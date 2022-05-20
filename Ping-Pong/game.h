@@ -4,6 +4,7 @@
 #include <ctime>
 #include <SDL_ttf.h>
 
+using namespace std;
 
 struct VectorPlayer1 {
 	float x;
@@ -35,41 +36,32 @@ public:
 
 private:
 	void ProcessInput();
-
 	float mPaddleDirPlayer1;
 	float mPaddleDirPlayer2;
 	int randomForDir;
-
-	unsigned int count;
-	
+	unsigned int countInt;
+	const char* count;
 	int widthPaddles;
 	int heightPaddles;
-
 	int posAndWidthPlayer1;
 	int posAndWidthPlayer2;
-
 	int posAndHeightPlayer1;
 	int posAndHeightPlayer2;
-
 	float accelerationPaddle;
-
-
-
 	bool mIsRunning;
-
 	void UpdateGame();
 	void GenerateOutput();
-
 	VectorPlayer1 mPaddlePosPlayer1;
 	VectorPlayer2 mPaddlePosPlayer2;
 	VectorBallPos mBallPos;
 	VectorBallDir mBallDir;
-
 	SDL_Window* mWindow;
 	SDL_Renderer* mRenderer;
-	SDL_Surface* fond;
-	TTF_Font* Font;
-	SDL_Surface* TextSurface;
 	SDL_Rect DstRect;
+	SDL_Surface* TextSurface;
 	SDL_Color TextColor;
+	SDL_Texture* Message;
+	TTF_Font* Font;
+
+	
 };
