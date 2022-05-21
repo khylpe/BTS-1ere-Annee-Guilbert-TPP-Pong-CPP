@@ -26,6 +26,13 @@ struct VectorBallDir {
 	int y;
 };
 
+struct zoneStartGame {
+	int* x1;
+	int* x2;
+	int* y1;
+	int* y2;
+};
+
 class game {
 
 public:
@@ -38,7 +45,6 @@ private:
 	void ProcessInput();
 	float mPaddleDirPlayer1;
 	float mPaddleDirPlayer2;
-	int randomForDir;
 	unsigned int countInt;
 	const char* count;
 	int widthPaddles;
@@ -49,8 +55,13 @@ private:
 	int posAndHeightPlayer2;
 	float accelerationPaddle;
 	bool mIsRunning;
+
+	unsigned int gameState;
+
 	void UpdateGame();
 	void GenerateOutput();
+
+	zoneStartGame clickableZone;
 	VectorPlayer1 mPaddlePosPlayer1;
 	VectorPlayer2 mPaddlePosPlayer2;
 	VectorBallPos mBallPos;
@@ -58,10 +69,16 @@ private:
 	SDL_Window* mWindow;
 	SDL_Renderer* mRenderer;
 	SDL_Rect DstRect;
+	SDL_Rect DstRect2;
+	SDL_Rect DstRect2Timer;
 	SDL_Surface* TextSurface;
 	SDL_Color TextColor;
 	SDL_Texture* Message;
+	SDL_Texture* Message2;
+	SDL_Texture* Message2Timer;
 	TTF_Font* Font;
+	SDL_Surface* row2;
+	SDL_Surface* row2Timer;
 
 	
 };
